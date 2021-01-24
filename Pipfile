@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 fastai = "*"
+flake8 = "*"
 
 [dev-packages]
 pytest = "*"
