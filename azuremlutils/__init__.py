@@ -1,4 +1,7 @@
-class AzureRunLogCallback(fastai.Callback):
+from fastai.basics import Callback
+
+
+class AzureRunLogCallback(Callback):
     "Log losses and metrics to Azure"
 
     def __init__(self, run_context):
